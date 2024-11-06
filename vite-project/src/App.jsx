@@ -1,7 +1,12 @@
 import Greet from "./components/Greeting";
+import Header from "./components/Header";
 
 const App = () => {
-  return <Greet />
+  return(
+    <div>
+      <Header />
+    </div>
+  )
 };
 
 export default App;
