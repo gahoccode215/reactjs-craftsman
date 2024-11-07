@@ -1,14 +1,12 @@
-import Footer from "./components/Footer";
-import Greet from "./components/Greeting";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Greeting from "./components/Greeting";
+import ProductInfo from "./components/ProductInfo";
+
 
 const App = () => {
   return(
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Greeting />
+      <ProductInfo />
     </div>
   )
 };
