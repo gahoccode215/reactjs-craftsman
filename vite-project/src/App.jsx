@@ -1,13 +1,13 @@
-import { Greeting } from "./components/Greeting";
-import UserStatus from "./components/UserStatus";
-import Weather from "./components/Weather";
+import IconComponent from "./components/IconComponent";
+import ProfileCard from "./components/ProfileCard";
+import StyleCard from "./components/StyleCard";
 
 const App = () => {
   return (
     <div>
-      <Weather />
-      <UserStatus loggedIn={true} isAdmin={true} />
-      <Greeting timeOfDay={"Moring"} />
+      <StyleCard  />
+      <ProfileCard />
+      <IconComponent />
     </div>
   )
 };
