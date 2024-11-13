@@ -1,13 +1,15 @@
 import React from 'react'
-import ComponentA from './components/ComponentA'
+import { UserProvider } from './components/UserContext'
+import UserProfile from './components/UserProfile'
+import UpdateUser from './components/UpdateUser'
 
 const App = () => {
-    const name = "Minh"
     return (
-        <div>
-            <ComponentA name={name} />
-        </div>
+            <UserProvider>
+                <UserProfile />
+                <UpdateUser />
+            </UserProvider>
     )
 }
 
-export default App
+export default App;
