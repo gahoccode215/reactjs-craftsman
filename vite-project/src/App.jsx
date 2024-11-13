@@ -1,18 +1,13 @@
-import BasicEffect from "./components/BasicEffect";
-import CounterEffect from "./components/CounterEffect";
-import FetchDataEffect from "./components/FetchDataEffect";
-
-
+import React from 'react'
+import ComponentA from './components/ComponentA'
 
 const App = () => {
+    const name = "Minh"
+    return (
+        <div>
+            <ComponentA name={name} />
+        </div>
+    )
+}
 
-  return (
-    <div>
-      <BasicEffect /> 
-      <CounterEffect />
-      <FetchDataEffect /> 
-    </div>
-  )
-};
-
-export default App;
+export default App
