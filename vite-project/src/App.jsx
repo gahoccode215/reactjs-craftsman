@@ -1,22 +1,16 @@
-import { useState } from "react";
-import Counter from "./components/Counter";
-import { TodoList } from "./components/TodoList";
-import Profile from "./components/Profile";
-import { ShoppingList } from "./components/ShoppingList";
+import BasicEffect from "./components/BasicEffect";
+import CounterEffect from "./components/CounterEffect";
+import FetchDataEffect from "./components/FetchDataEffect";
 
 
 
 const App = () => {
 
-  const counter = useState(0);
-  console.l
-
   return (
     <div>
-        <Counter />
-        <TodoList />
-        <Profile />
-        <ShoppingList />
+      <BasicEffect /> 
+      <CounterEffect />
+      <FetchDataEffect /> 
     </div>
   )
 };
